@@ -5,39 +5,39 @@ const Features = () => {
   const features = [
     {
       icon: Search,
-      title: "आपूर्तिकर्ता खोजें",
+      title: "Supplier Discovery",
       description: "Discover local suppliers near you with quality ratings and real-time availability",
-      hindi: "अपने आस-पास के विश्वसनीय आपूर्तिकर्ताओं को खोजें"
+      subtitle: "Find trusted suppliers in your area"
     },
     {
       icon: Star,
-      title: "रेटिंग सिस्टम",
+      title: "Rating System",
       description: "Rate suppliers based on quality, reliability, and service for better decisions",
-      hindi: "गुणवत्ता और विश्वसनीयता के आधार पर रेटिंग"
+      subtitle: "Quality and reliability ratings"
     },
     {
       icon: ShoppingCart,
-      title: "माइक्रो-बल्क ऑर्डरिंग",
+      title: "Micro-Bulk Ordering",
       description: "Order in small to medium quantities perfect for street food vendors",
-      hindi: "छोटी मात्रा में ऑर्डर करें, सही मात्रा में खरीदें"
+      subtitle: "Small quantity orders, right amounts"
     },
     {
       icon: MessageCircle,
-      title: "इन-ऐप मैसेजिंग",
+      title: "In-App Messaging",
       description: "Communicate directly with suppliers for better coordination and service",
-      hindi: "आपूर्तिकर्ताओं से सीधे बात करें"
+      subtitle: "Direct communication with suppliers"
     },
     {
       icon: CreditCard,
-      title: "पेमेंट गेटवे",
+      title: "Payment Gateway",
       description: "Secure payment integration for seamless transactions",
-      hindi: "सुरक्षित पेमेंट सिस्टम"
+      subtitle: "Secure payment system"
     },
     {
       icon: GraduationCap,
-      title: "शिक्षा सामग्री",
+      title: "Educational Content",
       description: "Educational content to help vendors make better business decisions",
-      hindi: "व्यापार बेहतर बनाने की जानकारी"
+      subtitle: "Business improvement knowledge"
     }
   ];
 
@@ -46,9 +46,7 @@ const Features = () => {
       <div className="container">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold">
-            <span className="text-primary">मुख्य विशेषताएं</span>
-            <br />
-            Key Features
+            <span className="text-primary">Key Features</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Empowering street food vendors with technology for better procurement and business growth
@@ -66,7 +64,7 @@ const Features = () => {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-xl font-semibold text-foreground">{feature.title}</h3>
-                    <p className="text-sm text-primary font-medium">{feature.hindi}</p>
+                    <p className="text-sm text-primary font-medium">{feature.subtitle}</p>
                     <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
                   </div>
                 </div>

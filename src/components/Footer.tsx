@@ -17,48 +17,48 @@ const Footer = () => {
               Empowering Indian street food vendors through technology-driven supply chain solutions.
             </p>
             <p className="text-secondary-foreground font-medium">
-              भारतीय स्ट्रीट फूड विक्रेताओं को सशक्त बनाना
+              Empowering Indian Street Food Vendors
             </p>
           </div>
 
           <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">विक्रेताओं के लिए</h3>
+            <h3 className="font-semibold text-foreground">For Vendors</h3>
             <div className="space-y-2">
               <a href="#" className="block text-muted-foreground hover:text-primary transition-smooth">
-                आपूर्तिकर्ता खोजें
+                Find Suppliers
               </a>
               <a href="#" className="block text-muted-foreground hover:text-primary transition-smooth">
-                कीमत तुलना
+                Price Comparison
               </a>
               <a href="#" className="block text-muted-foreground hover:text-primary transition-smooth">
-                ऑर्डर मैनेजमेंट
+                Order Management
               </a>
               <a href="#" className="block text-muted-foreground hover:text-primary transition-smooth">
-                शिक्षा सामग्री
+                Educational Content
               </a>
             </div>
           </div>
 
           <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">आपूर्तिकर्ताओं के लिए</h3>
+            <h3 className="font-semibold text-foreground">For Suppliers</h3>
             <div className="space-y-2">
               <a href="#" className="block text-muted-foreground hover:text-primary transition-smooth">
-                विक्रेता खोजें
+                Find Vendors
               </a>
               <a href="#" className="block text-muted-foreground hover:text-primary transition-smooth">
-                इन्वेंटरी मैनेज करें
+                Manage Inventory
               </a>
               <a href="#" className="block text-muted-foreground hover:text-primary transition-smooth">
-                ऑर्डर ट्रैकिंग
+                Order Tracking
               </a>
               <a href="#" className="block text-muted-foreground hover:text-primary transition-smooth">
-                पेमेंट हिस्ट्री
+                Payment History
               </a>
             </div>
           </div>
 
           <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">संपर्क</h3>
+            <h3 className="font-semibold text-foreground">Contact</h3>
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="h-4 w-4 text-primary" />
@@ -74,7 +74,7 @@ const Footer = () => {
               </div>
             </div>
             <Button variant="hero" className="w-full">
-              सहायता केंद्र
+              Help Center
             </Button>
           </div>
         </div>
@@ -82,7 +82,7 @@ const Footer = () => {
         <div className="border-t border-border/40 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-muted-foreground text-center md:text-left">
-              © 2024 Mandala Fresh. सभी अधिकार सुरक्षित।
+              © 2024 Mandala Fresh. All rights reserved.
             </p>
             <div className="flex gap-6">
               <a href="#" className="text-muted-foreground hover:text-primary transition-smooth text-sm">
@@ -92,7 +92,7 @@ const Footer = () => {
                 Terms of Service
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-smooth text-sm">
-                नियम व शर्तें
+                Terms of Service
               </a>
             </div>
           </div>

@@ -6,8 +6,8 @@ import produceImage from "@/assets/fresh-produce.jpg";
 const PriceDiscovery = () => {
   const priceData = [
     {
-      name: "टमाटर",
-      english: "Tomatoes",
+      name: "Tomatoes",
+      hindi: "टमाटर",
       currentPrice: 45,
       previousPrice: 50,
       unit: "kg",
@@ -15,8 +15,8 @@ const PriceDiscovery = () => {
       suppliers: 12
     },
     {
-      name: "प्याज",
-      english: "Onions", 
+      name: "Onions",
+      hindi: "प्याज", 
       currentPrice: 30,
       previousPrice: 28,
       unit: "kg",
@@ -24,8 +24,8 @@ const PriceDiscovery = () => {
       suppliers: 8
     },
     {
-      name: "धनिया",
-      english: "Coriander",
+      name: "Coriander",
+      hindi: "धनिया",
       currentPrice: 15,
       previousPrice: 15,
       unit: "bunch",
@@ -33,8 +33,8 @@ const PriceDiscovery = () => {
       suppliers: 15
     },
     {
-      name: "हरी मिर्च",
-      english: "Green Chili",
+      name: "Green Chili",
+      hindi: "हरी मिर्च",
       currentPrice: 80,
       previousPrice: 75,
       unit: "kg",
@@ -72,16 +72,14 @@ const PriceDiscovery = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-3xl lg:text-4xl font-bold">
-                <span className="text-primary">मूल्य खोज</span>
-                <br />
-                Real-time Price Discovery
+                <span className="text-primary">Real-time Price Discovery</span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Get real-time pricing from multiple suppliers to make informed purchasing decisions. 
                 Track price trends and find the best deals for your business.
               </p>
               <p className="text-lg text-secondary-foreground font-medium">
-                निष्पक्ष मूल्य • रियल-टाइम अपडेट • मार्केट ट्रेंड
+                Fair Prices • Real-time Updates • Market Trends
               </p>
             </div>
 
@@ -93,7 +91,7 @@ const PriceDiscovery = () => {
                       <div className="flex items-center gap-3">
                         <div>
                           <h3 className="font-semibold text-foreground">{item.name}</h3>
-                          <p className="text-sm text-muted-foreground">{item.english}</p>
+                          <p className="text-sm text-muted-foreground">{item.hindi}</p>
                         </div>
                       </div>
                     </div>
@@ -118,7 +116,7 @@ const PriceDiscovery = () => {
             </div>
 
             <Button variant="hero" size="lg">
-              सभी कीमतें देखें
+              View All Prices
               <TrendingUp className="h-5 w-5" />
             </Button>
           </div>

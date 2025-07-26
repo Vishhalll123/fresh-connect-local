@@ -19,16 +19,16 @@ const Header = () => {
 
         <nav className="hidden md:flex items-center gap-6">
           <a href="#" className="text-sm font-medium text-foreground/80 hover:text-primary transition-smooth">
-            मार्केटप्लेस
+            Marketplace
           </a>
           <a href="#" className="text-sm font-medium text-foreground/80 hover:text-primary transition-smooth">
-            आपूर्तिकर्ता
+            Suppliers
           </a>
           <a href="#" className="text-sm font-medium text-foreground/80 hover:text-primary transition-smooth">
-            कीमत खोजें
+            Price Discovery
           </a>
           <a href="#" className="text-sm font-medium text-foreground/80 hover:text-primary transition-smooth">
-            ऑर्डर
+            Orders
           </a>
         </nav>
 
@@ -40,10 +40,10 @@ const Header = () => {
             <Bell className="h-5 w-5" />
           </Button>
           <Button variant="outline" size="sm">
-            लॉग इन
+            Login
           </Button>
           <Button variant="hero" size="sm">
-            साइन अप
+            Sign Up
           </Button>
         </div>
       </div>
